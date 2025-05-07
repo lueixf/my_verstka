@@ -1,0 +1,93 @@
+body {
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    color: #1F1F1F;
+    margin: 0;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.header-1{
+    height: 40px;
+    background-color: #F0EEDD;
+    display: flex;
+    justify-content: center;
+}
+.header-1-3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-1-1{
+    width: 554px;
+    height: 21px;
+}
+.header-2{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    gap: 20px;
+}
+.header-2-2{
+    display: flex;
+    justify-content: center
+}
+.header-2-3{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    gap: 20px;
+}
+.main-info{
+    background-image: url('assept/Fon1.svg');
+    height: 604.8px;
+
+}
+.main-info-1{
+    background-color: #F5F1E9;
+    height: 212px;
+}
+.main-info-2{
+    display: flex;
+    justify-content: center;
+    height: 61px;
+    padding:20px 0;
+
+}
+.image-container {
+    background-image: url('assept/Profile.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.O{
+    color: aliceblue;
+    font-size: 17px;
+}
+.image-control{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    margin-top: 0.2px;
+    padding: 40px 0;
+}
+p {
+    margin: 0;
+}
+.main-text{
+    width: 550px;
+    height: 61px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder
+}
