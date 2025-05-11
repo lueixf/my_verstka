@@ -48,7 +48,7 @@ body {
     background-color: #F5F1E9;
     height: 212px;
 }
-.main-info-2{
+.main-info-1-1{
     display: flex;
     justify-content: center;
     height: 61px;
@@ -90,4 +90,32 @@ p {
     font-size: 18px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bolder
+}
+.main-info-2{
+    height: 340px;
+}
+.main-info-2-1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    float: left;
+    width: 400px;
+    height: 93px;
+    padding: 134.2px 135px 112.8px 0;
+    margin: 0 0 0  134.2px ;
+}
+.main-info-2-2{
+    display: block;
+    width: 640px;
+    height: 104px;
+    float: right;
+    padding: 121.1px 120px 114.8px 0;
+}
+.visual{
+    background-color:#FBF6EA ;
+    height: 939px;
+}
+.h2{
+    font-size: 41px;
+    font-family: 'Times New Roman'
 }
