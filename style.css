@@ -240,7 +240,6 @@ p {
     margin-left: 378px;
     margin-right: 26px;
 }
-
 .h2{
     font-size: 41px;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -286,7 +285,8 @@ p {
 .limited-info{
     height: 819.8px;
     display: flex;
-    margin-top: 79.42px;
+    justify-content: center;
+    align-items: flex-start;
     width: 1344px;
 }
 .lim{
@@ -385,4 +385,91 @@ p {
 .img-1{
     display: flex;
     justify-content: ;
+}
+.dish{
+    display: flex;
+    height: 480px;
+}
+.dish-info{
+    width: 480px;
+    background-color: #F5F1E9;
+}
+.dish-info1{
+    text-align: center;
+}
+.dish-info-1{
+    margin-top: 109px;
+}
+.dish-h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+}
+.dish-p1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+.dish-info-2{
+    margin-top: 33px;
+}
+.dish-info-3{
+    margin-top: 61px;
+}
+.demo1{
+    background-color: #FFFFFF;
+    color: #4F463F;
+    width: 206px;
+    height: 54px;
+    border-color: #AAA0984A;
+    border: 1px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+}
+.your-info{
+    background-color: #6C674D;
+    height: 579px;
+}
+.your-info-1{
+    height: 384px;
+    display: flex;
+}
+.info-h2{
+    margin-top: 0;
+}
+.info-email{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 447px;
+    height: 225px;
+    margin-left: 48px;
+    margin-top: 0;
+}
+.some-links{
+    width: 447px;
+    height: 384px;
+   margin-left: 448px;
+    
+}
+.dem0{
+    border: none;
+    background-color: none;
+    cursor:pointer;
+}
+.dem1{
+    border: none;
+    background-color: none;
+    cursor:pointer;
+}
+.dem2{
+    border: none;
+    background-color: none;
+    cursor:pointer;
+}
+.dem3{
+    border: none;
+    background-color: none;
+    cursor:pointer;
 }
