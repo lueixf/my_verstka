@@ -523,10 +523,14 @@ p {
     height: 579px;
     background-color: #6C674D;
 }
+.your-info{
+    background-color: #6C674D;
+}
 .your-info-1{
     display: flex;
     align-items: center;
     height: 384px;
+    gap: 310px;
 }
 .your-h2{
     margin: auto;
@@ -534,4 +538,89 @@ p {
 .your-info-2{
     height:74px ;
     background-color: #807C62;
+}
+.info-h2{
+    color: #F5F1E9;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 23px;
+    font-weight: 700;
+}
+.info-p{
+    color: #FCFAF6;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 11px;
+}
+.some-links{
+    display: flex;
+    margin-left: 0;
+    height: 270px;
+}
+.text-info-links{
+    display: block;
+    width: 149px;
+    height: 270px;
+}
+.links{
+    display: flex;
+}
+.us-info{
+    display: block;
+    width: 149px;
+    height: 270px;
+}
+.social{
+    display: block;
+    width: 149px;
+    height: 270px;
+}
+.wtf{
+    margin-top: 80px;
+    width: 448px;
+    height: 270px;
+}
+.link-p1{
+    color: #FFFFFF;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    line-height: 20.4px;
+}
+.link-p2{
+    color: #F5F1E999;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30.6px;
+}
+.link-p3{
+    color: #F5F1E9;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+}
+.flags{
+    display: flex;
+    gap: 24px;
+    margin-top: 9px;
+}
+.email{
+    margin-top: 62px;
+    color: #FCFAF6;
+    width: 448px;
+    height: 60px;
+    display: flex;
+}
+.email-1{
+    width: 347px;
+    height: 60px;
+    border: 0;
+    padding: 0;
+}
+.submit{
+    width: 101px;
+    border: 0;
+    padding: 0;
 }
