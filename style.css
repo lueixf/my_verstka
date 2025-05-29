@@ -122,6 +122,9 @@ p {
     margin: 0;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+p:hover{
+    color: #f5caa7;
+}
 .p1{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
@@ -292,6 +295,7 @@ p {
     align-items: flex-start;
     width: 1344px;
     margin: auto;
+    background-color: #f7ebe242;
 }
 .limid{
     width: 1344px;
@@ -476,6 +480,8 @@ p {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 24px;
     font-weight: 700;
+    color: #35312E;
+    cursor: pointer;
 }
 .dish-info-2{
     margin-top: 33px;
@@ -493,6 +499,7 @@ p {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 12px;
     font-weight: 700;
+    cursor: pointer;
 }
 .your-info{
     background-color: #6C674D;
@@ -676,6 +683,7 @@ p {
     font-size: 16px;
     font-weight: 400;
     line-height: 30.6px;
+    cursor:pointer;
 }
 .link-p3{
     color: #F5F1E9;
@@ -732,4 +740,21 @@ p {
 }
 .img-4{
     margin-top: 21px;
+}
+html{
+    scroll-behavior: smooth;
+}
+button:hover{
+    background-color: rgb(245, 208, 208);
+}
+.img1{
+    transition: all;
+}
+.img1:hover{
+    width: 98%;
+    height: 98%;
+}
+a{
+    text-decoration: none;
+    color: black;
 }
